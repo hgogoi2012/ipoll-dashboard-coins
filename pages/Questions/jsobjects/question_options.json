@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "question_options",
+    "pageId": "Questions",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\toptions: () => {\n\t\t\n\t\tconst myOptions = [];\n\t\t\n\n\t\tif(option1.text.length > 0){\n\t\t\tmyOptions.push(option1.text)\n\t\t}\n\t\t\n\t\tif(option2.text.length > 0){\n\t\t\tmyOptions.push(option2.text)\n\t\t}\n\t\t\n\t\t\tif(option3.text.length > 0 ){\n\t\t\tmyOptions.push(option3.text)\n\t\t}\n\t\t\n\t\t\tif(option4.text.length > 0){\n\t\t\tmyOptions.push(option4.text)\n\t\t}\n\t\t\n\t\n\t\treturn myOptions;\n\t\t\n\t},\n\t\n\toptionsanalysis: () => {\n\t\t\n\t\tconst optionvalue = {};\n\t\t\n\n\t\tif(option1.text.length > 0){\n\t\t\toptionvalue[option1.text] = 0;\n\t\t}\n\t\t\n\t\t\tif(option2.text.length > 0){\n\t\t\toptionvalue[option2.text] = 0;\n\t\t}\n\t\t\n\tif(option3.text.length > 0){\n\t\t\toptionvalue[option3.text] = 0;\n\t\t}\n\t\t\n\t\tif(option4.text.length > 0){\n\t\t\toptionvalue[option4.text] = 0;\n\t\t}\n\t\n\t\t\n\t\n\t\treturn optionvalue;\n\t\t\n\t},\n\t\n\t\n\t\n\tgetRandomValue: ()=>{\n\t\tconst randomNumber = Math.random().toString(32).substring(6).trim()\n\t\tconst randomDate =new Date().getUTCMilliseconds();\n\t\tconst randomVal = randomNumber + randomDate\n\t\t\n\t\treturn randomVal;\n\t},\n\t\n\tgetTotalParticapntslength: () => {\n\treturn Object.keys(get_single_question.data.particpants).length\n\t},\n\t\tmyFun2: () => {\n\t\t\t\n\t\t\tconst tiger =25;\n\t\t\t\n\t\t\n\tconst himansh = '55';\n\t\treturn himansh\n\t\t\n\t},\n\tmyFun5: async () => {\nawait AddQuestion\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "Questions_question_options",
+  "deleted": false,
+  "gitSyncId": "630d720235bc2b6c2c4c3560_630d720235bc2b6c2c4c35b9"
+}

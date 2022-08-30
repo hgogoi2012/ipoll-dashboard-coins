@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "submitquestion",
+    "pageId": "Questions",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tsubmit: async () => {\n\t\tAddQuestion.run().then(\n\t\t\tpostquestion.run()\n\t\t\t\n\n\t\t)\n \n\nreturn 'done'\n\t\t\t\n//\t  if(option3.text.length == 0 ){\n//     await analyticsdata_firstquestion_2.run()\n// }\n\n\n\n// if(option3.text.length > 0 && option4.text.length == 0){\n//     await analyticsdata_firstquestion_3.run()\n// }\n\n//   if(option3.text.length>0 && option4.text.length > 0){\n//     await analyticsdata_firstquestion_4.run()\n// }\n\t\t\n\t\n\t\t\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "Questions_submitquestion",
+  "deleted": false,
+  "gitSyncId": "630d720235bc2b6c2c4c3560_630d720235bc2b6c2c4c35bd"
+}

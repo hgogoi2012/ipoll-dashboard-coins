@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "chartdata",
+    "pageId": "Questions",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tchartdataq1: async () => {\n\t\t\n\t\tlet dataa = {};\n\t\tlet chartArray = [];\n\t\t\n\t\t\n\t dataa = await getselectedoption_analyssis.data\n   delete(dataa['_ref'])\n\t\t\n\n\t\t\n\t\t\n\t\t\n\t\tfor(let i = 0;Object.keys(dataa).length;i++){\n\t\t\tlet chartData = {}\n\t\t\tchartData.x = Object.keys(dataa)[i]\n\t\t\tchartData.y = Object.values(dataa)[i]\n\t\t\tconsole.log(chartData)\n\t\t}\n\t \n\n\n\t\t\treturn Object.keys(dataa).length\n\t}\n\t\t\n\n\n\t\n\n\t\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "Questions_chartdata",
+  "deleted": false,
+  "gitSyncId": "630d720235bc2b6c2c4c3560_630d720235bc2b6c2c4c35c1"
+}

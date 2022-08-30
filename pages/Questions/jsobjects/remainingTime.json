@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "remainingTime",
+    "pageId": "Questions",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tgetRemainingtime: () => {\n\t\t\n\tconst expiredTime =\tget_single_question.data.expiredDate;\n const currentTime = new Date();\n\t\tconst currentTime1 = moment(currentTime).format('llll');\n\n\t\tconst timedifference =moment(expiredTime,' HH:mm').fromNow();\n\t\tconst a = moment(expiredTime).from(currentTime1,true);\n\t\t\n\n\n\t\treturn a;\n\t\t\n\t\t\n\t\t\n\t},\n\tchangetimetofluttertime:  () => {\n\t\t\n\t\tconst format ='YYYY-MM-DD HH:MM:SS.SSSSSS'\n\t\nconst updated =moment().format(format)\n\n\t\treturn updated;\n\t},\n\t\n\ttest:()=>{\n\nvar localDate = moment(Date()).local()\n\t\t\n\t\tvar s = localDate.format(\"YYYY-MM-DD HH:mm:ss.ssssss\");\n\t\t\n\t\treturn s;\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "Questions_remainingTime",
+  "deleted": false,
+  "gitSyncId": "630d720235bc2b6c2c4c3560_630d720235bc2b6c2c4c35bb"
+}
