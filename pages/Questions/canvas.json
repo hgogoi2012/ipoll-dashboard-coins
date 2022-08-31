@@ -974,7 +974,7 @@
                                 }
                               ],
                               "labelPosition": "Top",
-                              "options": "[\n  {\n    \"label\": \"Cricket\",\n    \"value\": \"Cricket\"\n  },\n  {\n    \"label\": \"Bollywood\",\n    \"value\": \"Bollywood\"\n  },\n  {\n    \"label\": \"Politics\",\n    \"value\": \"Politics\"\n  },\n\t{\n    \"label\": \"Social Media\",\n    \"value\": \"Social Media\"\n  },\n\t\t{\n    \"label\": \"General\",\n    \"value\": \"General\"\n  },\n\t{\n    \"label\": \"Super Hero\",\n    \"value\": \"Super Hero\"\n  }\n]",
+                              "options": "[\n  {\n    \"label\": \"Cricket\",\n    \"value\": \"Cricket\"\n  },\n  {\n    \"label\": \"Bollywood\",\n    \"value\": \"Bollywood\"\n  },\n  {\n    \"label\": \"Politics\",\n    \"value\": \"Politics\"\n  },\n\t{\n    \"label\": \"Social Media\",\n    \"value\": \"Social Media\"\n  },\n\t\t{\n    \"label\": \"General\",\n    \"value\": \"General\"\n  },\n\t{\n    \"label\": \"Movies\",\n    \"value\": \"Movies\"\n  },\n\t\t{\n    \"label\": \"Current Affairs\",\n    \"value\": \"Current Affairs\"\n  }\n]",
                               "placeholderText": "Select option",
                               "isDisabled": false,
                               "key": "ktyx94jajs",
